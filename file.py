@@ -20,5 +20,10 @@ print(a)
 for i in range(n):
     p=p*new[i]
 p=p**(1/n) 
-print("Среднее геометрическое ")   
+print("Среднее геометрическое: ")   
 print(p)
+
+p2=np.sum(a)
+p2=p2/n 
+print("Среднее арифметическое: ")   
+print(p2) 
