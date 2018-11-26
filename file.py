@@ -16,3 +16,9 @@ n = int(input ())
 new = np.random.randint(1,100,n)
 a.append(new)
 print(a)     
+
+for i in range(n):
+    p=p*new[i]
+p=p**(1/n) 
+print("Среднее геометрическое ")   
+print(p)
